@@ -1,0 +1,414 @@
+@font-face {
+    font-family: title;
+    src: url('/font/static/NotoSans_Condensed-Medium.ttf') format('truetype');
+    font-family: heading;
+    src: url('/font/static/Nats_400.ttf') format('truetype');
+}
+
+/*Titles and menu titles*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125px;
+    position: fixed;
+    rotate: -90deg;
+    margin-top: 17%;
+    margin-left: -10%;
+}
+#lampe {
+    font-size: 70px;
+    margin-top: 20%;
+}
+#schimmel {
+    font-size: 55px;
+    margin-top: 19.5%;
+}
+#humbletable {
+    font-size: 110px;
+    margin-top: 17.5%;
+}
+#dna {
+    font-size: 90px;
+    margin-top: 18%;
+}
+header#menu {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding-top: 50px;
+    padding-bottom: 75px;
+    position: sticky;
+    top: 0;
+}
+#mywork {
+    color:orange;
+}
+#aboutme {
+    color:orange;
+}
+#aboutmeh1 {
+    font-size: 125px;
+    margin-top: 15%;
+}
+#contact {
+    color:orange;
+}
+#contacth1 {
+    font-size: 100px;
+}
+
+/*Link behavior*/
+a {
+    font-family: heading;
+}
+nav a {
+    float: right;
+    margin-right: 6%;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+} 
+a:hover {
+    text-decoration: none;
+    color: orange;
+}
+a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+.wholegallery {
+    margin-left: 25%;
+}
+.gallery {
+    display: inline-block;
+}
+.specificgallery {
+    display: inline-block;
+    margin-left: 30%;
+    width: 30%;
+}
+.specificgallery h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.gallery a img:last-child {
+    display: none;  
+  }
+.gallery a:hover img:last-child {
+    display: block;  
+  }
+.gallery a:hover img:first-child {
+    display: none;  
+  }
+  
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: fixed;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    width: 30%;
+}
+.desc h2 {
+    font-size: 35px;
+}
+.desc p {
+    margin-bottom: 15%;
+}
+
+/*Contact and about me page body*/
+.descother {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 7%;
+    margin-left: -15%;
+    width: 30%;
+}
+.descother img {
+    margin-right: 5%;
+}
+#linkedin {
+    border: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+#linkedin:hover {
+    border-color: orange;
+    border-radius: 100px;
+}
+#phonemail {
+    border: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+    padding: 14px 28px;
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+#phonemail:hover {
+    border-color: black;
+    color: black;
+}
+
+/*Impressum page body*/
+.descimp {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: fixed;
+    margin-top: 2.5%;
+    margin-left: -25%;
+    width: 35%;
+    text-align: center;
+}
+#angaben {
+    margin: 0%;
+}
+#angabenbold {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.nextimg {
+    float: right;
+    margin-right: 30%;
+}
+.nexttext {
+    float: left;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+hr {
+    border: none;
+    color: black;
+    height: 2px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -0.87%;
+}
+
+footer p {
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-family: heading;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 426px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        position: fixed;
+        rotate: -90deg;
+        margin-top: 35%;
+        margin-left: -20%;
+    }
+    #lampe {
+        font-size: 25px;
+        margin-top: 20%;
+        margin-left: -10%;
+    }
+    #schimmel {
+        font-size: 25px;
+        margin-top: 22.5%;
+        margin-left: -22.5%;
+    }
+    #humbletable {
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+    #dna {
+        font-size: 35px;
+        margin-top: 20%;
+        margin-left: -20%;
+    }    
+    header#menu {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+        padding-top: 50px;
+        padding-bottom: 75px;
+        margin-right: -55%;
+        position: sticky;
+        top: 0;
+    }
+    hr {
+        border: none;
+        color: none;
+        height: 0px;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -0.87%;
+    }
+    .desc {
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        position: fixed;
+        margin-top: 2.5%;
+        margin-left: 35%;
+        width: 50%;
+    }
+    footer {
+        margin-left: 60%;
+        margin-bottom: 10%;
+        width: 20%;
+    }
+    .specificgallery {
+        display: inline-block;
+        margin-left: -10%;
+    }
+    .specificgallery img {
+        width: 250px;
+        height: 250px;
+    }
+    .specificgallery embed {
+        width: 250px;
+        height: 250px;
+    }
+    #aboutmeh1 {
+        font-size: 75px;
+        margin-top: 35%;
+    }
+    #contacth1 {
+        font-size: 60px;
+        margin-top: 35%;
+        margin-right: 37%;
+    }
+    .descother, .descimp {
+        margin-left: 35%;
+        width: 65%;
+    }
+}
+@media screen and (width: 768px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 75px;
+        position: fixed;
+        rotate: -90deg;
+        margin-top: 20%;
+    }
+    .specificgallery {
+        display: inline-block;
+        margin-left: 10%;
+    }
+    .specificgallery img {
+        width: 300px;
+        height: 300px;
+    }
+    .specificgallery embed {
+        width: 300px;
+        height: 300px;
+    }
+    .desc {
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        position: fixed;
+        margin-top: 2.5%;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #lampe {
+        font-size: 25px;
+        margin-top: 30%;
+        margin-left: -10%;
+    }
+    #schimmel {
+        font-size: 25px;
+        margin-top: 22.5%;
+        margin-left: -17%;
+    }
+    #humbletable {
+        font-size: 40px;
+        margin-top: 15%;
+        margin-left: -10%;
+    }
+    #dna {
+        font-size: 35px;
+        margin-top: 20%;
+        margin-left: -15%;
+    }   
+    #aboutmeh1 {
+        font-size: 75px;
+        margin-top: 35%;
+    }
+    #contacth1 {
+        font-size: 60px;
+        margin-top: 35%;
+        margin-right: 37%;
+    }
+    .descother, .descimp {
+        margin-left: -5%;
+        width: 60%;
+    }
+}
+@media screen and (width: 1024px) {
+    .specificgallery {
+        display: inline-block;
+        margin-left: 10%;
+    }
+    .specificgallery img {
+        width: 300px;
+        height: 300px;
+    }
+    .specificgallery embed {
+        width: 300px;
+        height: 300px;
+    }
+    .desc {
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        position: fixed;
+        margin-top: 2.5%;
+        margin-left: 15%;
+        width: 40%;
+    }
+    #lampe {
+        font-size: 50px;
+        margin-top: 30%;
+        margin-left: -17.5%;
+    }
+    #schimmel {
+        font-size: 50px;
+        margin-top: 30%;
+        margin-left: -25%;
+    }
+    #humbletable {
+        font-size: 50px;
+        margin-top: 25%;
+        margin-left: -10%;
+    }
+    #dna {
+        font-size: 50px;
+        margin-top: 30%;
+        margin-left: -15%;
+    }   
+    #aboutmeh1 {
+        font-size: 75px;
+        margin-top: 35%;
+    }
+    #contacth1 {
+        font-size: 60px;
+        margin-top: 35%;
+        margin-right: 37%;
+    }
+    .descother, .descimp {
+        margin-left: -5%;
+        width: 60%;
+    }
+}
