@@ -168,12 +168,12 @@ a:active {
 .descimp {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    position: fixed;
     margin-top: 2.5%;
     margin-left: -25%;
     width: 35%;
     text-align: center;
 }
+
 #angaben {
     margin: 0%;
 }
