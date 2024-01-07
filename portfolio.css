@@ -203,6 +203,7 @@ hr {
 }
 
 footer p {
+    display: inline-block;
     margin-bottom: 2.5%;
     margin-right: 2.5%;
     text-align: center;
