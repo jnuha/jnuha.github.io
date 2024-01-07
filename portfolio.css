@@ -30,6 +30,11 @@ h1 {
     font-size: 90px;
     margin-top: 18%;
 }
+#datenschutz {
+    font-size: 80px;
+    margin-top: 24%;
+    margin-left: -5%;
+}
 header#menu {
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
     font-size: 20px;
@@ -204,11 +209,12 @@ hr {
 
 footer p {
     display: inline-block;
-    margin-bottom: 2.5%;
-    margin-right: 2.5%;
-    text-align: center;
+    padding: 0% 2.5%;
     font-family: heading;
     font-size: 20px;
+}
+footer {
+    text-align: center;
 }
 
 @media screen and (max-width: 426px) {
@@ -239,7 +245,12 @@ footer p {
         font-size: 35px;
         margin-top: 20%;
         margin-left: -20%;
-    }    
+    }
+    #datenschutz {
+        font-size: 35px;
+        margin-top: 45%;
+        margin-left: -20%;
+    }         
     header#menu {
         box-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
         font-size: 20px;
@@ -344,7 +355,12 @@ footer p {
         font-size: 35px;
         margin-top: 20%;
         margin-left: -15%;
-    }   
+    }
+    #datenschutz {
+        font-size: 80px;
+        margin-top: 45%;
+        margin-left: -35%;
+    }  
     #aboutmeh1 {
         font-size: 75px;
         margin-top: 35%;
@@ -399,7 +415,12 @@ footer p {
         font-size: 50px;
         margin-top: 30%;
         margin-left: -15%;
-    }   
+    }
+    #datenschutz {
+        font-size: 80px;
+        margin-top: 35%;
+        margin-left: -15%;
+    }
     #aboutmeh1 {
         font-size: 75px;
         margin-top: 35%;
